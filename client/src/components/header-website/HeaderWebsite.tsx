@@ -56,7 +56,7 @@ const HeaderWebsite = () => {
               <div className="row">
               <div className="col-md-2">
                 <NavLink className="site-logo" to="/">
-                  <img src="https://betacinemas.vn/Assets/Common/logo/logo.png" alt="" />
+                  <img style={{ width: '100px' }} src="https://i.gyazo.com/f42624877a99b415498194df29e2e45b.png" alt="" />
                 </NavLink>
               </div>
               <div className="col-md-2">

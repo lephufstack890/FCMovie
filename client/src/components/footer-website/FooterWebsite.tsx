@@ -11,7 +11,7 @@ const FooterWebsite = () => {
                     <ul className="list-unstyled">
                         <li>
                             <NavLink to="/">
-                              <img src="https://betacinemas.vn/Assets/Common/logo/logo.png" alt="" style={{ width: '120px', transform: 'translateX(-10px)' }} />
+                              <img src="https://i.gyazo.com/f42624877a99b415498194df29e2e45b.png" alt="" style={{ width: '120px' }} />
                             </NavLink>
                         </li>
                         <li><NavLink to="" className="item-footer">Tuyển dụng</NavLink></li>
