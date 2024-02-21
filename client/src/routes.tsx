@@ -4,6 +4,8 @@ import LayoutWebsite from "./layout/website/LayoutWebsite";
 import { Dashboard, HomePage, PageNotFound } from "./pages";
 import "./index.css"
 import RapPage from "./pages/rap/RapPage";
+import SchedulePage from "./pages/schedule/Schedule";
+import MoviePage from "./pages/movie/MoviePage";
 export const router = createBrowserRouter([
     {
         path: "/",
@@ -16,12 +18,32 @@ export const router = createBrowserRouter([
         ],
     },
     {
+        path: "/phim",
+        element: (
+            <LayoutWebsite/>
+        ),
+        children: [
+            { index: true, element: <MoviePage /> },
+            
+        ],
+    },
+    {
         path: "/thong-tin-rap",
         element: (
             <LayoutWebsite/>
         ),
         children: [
             { index: true, element: <RapPage /> },
+            
+        ],
+    },
+    {
+        path: "/lich-chieu",
+        element: (
+            <LayoutWebsite/>
+        ),
+        children: [
+            { index: true, element: <SchedulePage /> },
             
         ],
     },

@@ -7,11 +7,11 @@ const HeaderWebsite = () => {
   const Menu =[
     {
       title:"Lịch Chiếu Theo Rạp",
-      linkTo:""
+      linkTo:"/lich-chieu"
     },
     {
       title:"Phim",
-      linkTo:""
+      linkTo:"/phim"
     },
     {
       title:"Rạp",
